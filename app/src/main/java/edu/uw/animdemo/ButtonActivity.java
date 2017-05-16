@@ -22,7 +22,7 @@ public class ButtonActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.v(TAG, "Clicked!");
-                v.animate().x(100f).y(300f).alpha(0f);
+
             }
         });
     }

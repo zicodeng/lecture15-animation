@@ -84,7 +84,6 @@ public class DrawingView extends View {
     {
         super.onDraw(canvas); //make sure to have the parent do any drawing it is supposed to!
 
-        ball.cy += 3;
 
         canvas.drawColor(Color.rgb(51,10,111)); //purple out the background
 
