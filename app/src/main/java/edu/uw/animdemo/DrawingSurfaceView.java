@@ -113,7 +113,7 @@ public class DrawingSurfaceView extends SurfaceView implements SurfaceHolder.Cal
      * Helper method for the "render loop"
      * @param canvas The canvas to draw on
      */
-    public void render(Canvas canvas){
+    public synchronized void render(Canvas canvas){
         if(canvas == null) return; //if we didn't get a valid canvas for whatever reason
 
         canvas.drawColor(Color.rgb(51,10,111)); //purple out the background
